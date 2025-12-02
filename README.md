@@ -1,42 +1,47 @@
 CPF Validator (JavaScript)
 
-Validador de CPF implementado em JavaScript para treinar lógica, prototypes e cálculo dos dígitos verificadores.
-O objetivo deste projeto é praticar fundamentos da linguagem e evoluir escrevendo, revisando e refatorando código.
+Validador de CPF implementado em JavaScript para praticar lógica, cálculo dos dígitos verificadores e diferentes formas de estruturar código (prototype → classe).
+
+O objetivo não é criar uma biblioteca pronta para produção, e sim evoluir escrevendo, revisando e refatorando código.
 
 📌 Sobre o projeto
 
-Este mini-projeto faz a validação completa de um CPF:
+Este mini-projeto executa a validação completa de um CPF:
 
 Remove caracteres não numéricos
 
-Verifica tamanho
+Verifica o tamanho correto
 
-Impede sequências repetidas
+Impede sequências repetidas (ex: 111.111.111-11)
 
-Calcula corretamente os dois dígitos verificadores
+Calcula os dois dígitos verificadores
 
-Compara o resultado com o CPF informado
+Compara com o CPF informado
 
-A ideia não é criar uma biblioteca profissional, mas sim exercitar boas práticas e entender o algoritmo por trás da validação.
+Inclui também uma versão reescrita usando classe ES6, com código mais organizado e fácil de entender.
 
-🧠 O que foi praticado / aprendido
+🧠 O que foi praticado
 
-Uso de funções construtoras e prototype
+Entendimento do algoritmo oficial da validação do CPF
 
-Cálculo dos dígitos verificadores usando regressivo
+Refatoração: função construtora → classe ES6
 
-Refatoração para simplificar o construtor
+Cálculo regressivo dos dígitos verificadores
+
+Escrita de código mais limpo
+
+Separação de responsabilidades dentro da classe
 
 Tratamento de entradas inválidas
 
-Escrita de código mais limpo e legível
+📂 Arquivos do projeto
 
-Importância de revisar o próprio código em vez de só “funcionar”
+cpf-prototype.js → versão antiga usando função construtora + prototype
 
-📎 Observações
+cpf-class.js → versão atual usando classe ES6
 
-Este projeto é simples e focado em aprendizado.
+README.md → documentação do aprendizado
 
-No futuro, pode ser refeito usando classes ES6 ou até TypeScript.
+🔧 Objetivo
 
-A intenção principal é criar um histórico de evolução no GitHub.
+Criar um histórico real de evolução no GitHub e acompanhar minha transição para desenvolvimento web.
