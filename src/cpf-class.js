@@ -41,7 +41,7 @@ class CheckCPF {
   }
 }
 
-let cpf = new CheckCPF('065.352.801-95');
+let cpf = new CheckCPF('063.892.901-60');
 
 if (cpf.check()) {
   console.log('CPF Válido.');

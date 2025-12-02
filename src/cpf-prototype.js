@@ -34,7 +34,7 @@ checkCPF.prototype.isSequence = function () {
   return sequence === this.cleanCPF;
 };
 
-const cpf = new checkCPF('065.352.801-95');
+let cpf = new checkCPF('063.892.901-60');
 
 if (cpf.check()) {
   console.log('CPF VÁLIDO!');
